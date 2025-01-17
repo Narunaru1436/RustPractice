@@ -4,7 +4,10 @@ fn main() {
     // 変数テスト
     let _s1 = "Hello";
     let _n1 = 100;
-    println!("{}", _s1);
-    println!("{}", _n1);
+
+    let v1 = vec![100, 200, 300];
+    println!("{}", v1[0]);
+
+
 
 }
