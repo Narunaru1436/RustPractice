@@ -6,7 +6,10 @@ fn main() {
     let _n1 = 100;
 
     let v1 = vec![100, 200, 300];
-    println!("{}", v1[0]);
+    let v2 = &v1;
+
+    println!("{:?}", v2);
+    //println!("{}", v1[0]);
 
 
 
