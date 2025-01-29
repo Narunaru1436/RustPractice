@@ -1,11 +1,17 @@
+
+struct Area {
+    width:i32,
+    height:i32,
+}
+
 fn main() {
-    //println!("Hello, world!");
+    let area1 = Area {
+        width:100,
+        height:200,
+    };
 
-    // 変数テスト
-    let _s1 = "Hello";
-    let _n1 = 100;
-
-    let v1 = vec![100, 200, 300];
-    let v2 = &v1;
+    println!("{}", area1.width);
+    println!("{}", area1.height);
+    
     
 }
